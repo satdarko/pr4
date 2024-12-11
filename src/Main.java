@@ -21,7 +21,7 @@ public class Main {
             Random random = new Random();
             for (int i = 0; i < 3; i++) {
                 for (int j = 0; j < 3; j++) {
-                    matrix[i][j] = random.nextInt(100); // Random numbers 0-99
+                    matrix[i][j] = random.nextInt(100); // random numbers 0-99
                 }
             }
             System.out.println("Generated matrix:\n" + Arrays.deepToString(matrix));
@@ -58,7 +58,7 @@ public class Main {
             double[] sequence = new double[20];
             Random random = new Random();
             for (int i = 0; i < 20; i++) {
-                sequence[i] = random.nextDouble() * 100; // Random doubles 0-100
+                sequence[i] = random.nextDouble() * 100; // random doubles 0-100
             }
             System.out.println("Generated sequence: " + Arrays.toString(sequence));
             return sequence;
